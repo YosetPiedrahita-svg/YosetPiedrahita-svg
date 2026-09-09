@@ -1,4 +1,4 @@
-# ¡Hola! Soy Yoset Piedrahita 👋
+# ¡Hi! i'm Yoset Piedrahita 👋
 
 Systems Engineering student focused on learning and becoming a Full-Stack Developer.
 ---
