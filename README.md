@@ -1,3 +1,19 @@
+<!-- ANIMATED HEADER -->
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&pause=1000&color=FF2A74&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+profile!+%F0%9F%90%A7;I'm+Yoset+Piedrahita;Full-Stack+Developer+in+Progress..." alt="Typing SVG" />
+  </a>
+</p>
+
+<!-- ABOUT ME -->
+<div align="center">
+  <p>
+    <h2>
+      <font color="#FFFFFF"><b>Systems Engineering Student & Aspiring Full-Stack Developer</b></font>
+    </h2>
+    <h3>
+      <font color="#F8F9FA"><b>Passionate about building modern, high-performance, and intuitive web applications within the JavaScript and Python ecosystems.</b></font>
+    </h3>
   </p>
 </div>
 
