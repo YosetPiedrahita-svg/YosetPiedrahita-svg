@@ -33,12 +33,12 @@
 </div>
 
 <!-- SYSTEM TELEMETRY -->
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top" style="border: none;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color: transparent; border-collapse: collapse;">
+  <tr style="background-color: transparent; border: none;">
+    <td width="50%" align="center" valign="top" style="border: none; background-color: transparent; padding: 0 5px;">
       <img src="https://ghstats.dev/api/card?username=YosetPiedrahita-svg&theme=radical&border_radius=12&custom_title=Recent+Activity&hide=repos%2Ctrend%2Cstars%2Cissues" alt="Recent Activity" width="100%" />
     </td>
-    <td width="50%" align="center" valign="top" style="border: none;">
+    <td width="50%" align="center" valign="top" style="border: none; background-color: transparent; padding: 0 5px;">
       <img src="https://ghstats.dev/api/langs?username=YosetPiedrahita-svg&theme=radical&layout=vertical_list" alt="Top Languages" width="100%" />
     </td>
   </tr>
