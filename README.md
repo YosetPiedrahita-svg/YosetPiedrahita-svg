@@ -1,74 +1,61 @@
-<!-- ANIMATED HEADER WITH SPINNER & COMPLETION -->
+<!-- HEADER ANIMADO ORIGINAL -->
 <p align="center">
-  <svg width="600" height="140" viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&pause=1000&color=FF2A74&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+profile!+%F0%9F%90%A7;I'm+Yoset+Piedrahita;Full-Stack+Developer+in+Progress..." alt="Typing SVG" />
+  </a>
+</p>
+
+<!-- BARRA DE CARGA CIBERPUNK DEBAJO -->
+<p align="center">
+  <svg width="450" height="40" viewBox="0 0 450 40" xmlns="http://www.w3.org/2000/svg">
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700;800&display=swap');
-      
-      .text-type {
-        font-family: 'Fira Code', monospace;
-        font-size: 22px;
-        font-weight: 800;
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
+
+      /* MARCO Y FONDO DE LA BARRA */
+      .bar-bg {
+        fill: #141321;
+        stroke: #FF2A74;
+        stroke-width: 2px;
+        rx: 6px;
+      }
+
+      /* RELLENO PROGRESIVO DE LA BARRA */
+      .bar-fill {
         fill: #FF2A74;
-        white-space: pre;
-        overflow: hidden;
-        border-right: 3px solid #FF2A74;
-        animation: typing 3s steps(30, end) infinite alternate;
+        rx: 4px;
+        animation: fillProgress 3.5s ease-in-out infinite;
       }
 
-      /* TEXT TYPING ANIMATION */
-      @keyframes typing {
-        0%, 10% { width: 0; }
-        50%, 90% { width: 100%; }
+      @keyframes fillProgress {
+        0% { width: 0px; }
+        65% { width: 430px; fill: #FF2A74; }
+        80%, 95% { width: 430px; fill: #00FFCC; filter: drop-shadow(0 0 6px #00FFCC); }
+        100% { width: 0px; }
       }
 
-      /* SPINNER ROTATION */
-      .spinner {
-        transform-origin: 300px 85px;
-        animation: spin 1.5s linear infinite, fadeSpinner 6s ease-in-out infinite;
-      }
-
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-
-      /* SPINNER VISIBILITY CYCLE */
-      @keyframes fadeSpinner {
-        0%, 35% { opacity: 0; }
-        40%, 75% { opacity: 1; }
-        80%, 100% { opacity: 0; }
-      }
-
-      /* SUCCESS GLOW ANIMATION */
-      .success-glow {
+      /* TEXTO DE ESTADO */
+      .status-text {
         font-family: 'Fira Code', monospace;
-        font-size: 14px;
+        font-size: 11px;
         font-weight: 700;
-        fill: #00FFCC;
-        animation: pulseGlow 6s ease-in-out infinite;
+        fill: #FFFFFF;
+        animation: textChange 3.5s ease-in-out infinite;
       }
 
-      @keyframes pulseGlow {
-        0%, 75% { opacity: 0; transform: scale(0.95); }
-        80% { opacity: 1; transform: scale(1.05); }
-        85%, 95% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 8px #00FFCC); }
-        100% { opacity: 0; }
+      @keyframes textChange {
+        0%, 60% { fill: #FFFFFF; }
+        75%, 95% { fill: #00FFCC; filter: drop-shadow(0 0 4px #00FFCC); }
+        100% { fill: #FFFFFF; }
       }
     </style>
 
-    <!-- TYPING TEXT -->
-    <g transform="translate(0, 30)">
-      <text x="50%" y="0" dominant-baseline="middle" text-anchor="middle" class="text-type">
-        Welcome to my profile! 👋
-      </text>
-    </g>
+    <!-- RECTÁNGULO DE CONTENCIÓN DE LA BARRA -->
+    <rect x="10" y="5" width="430" height="14" class="bar-bg" />
+    <rect x="10" y="5" height="14" class="bar-fill" />
 
-    <!-- LOADING SPINNER -->
-    <circle class="spinner" cx="300" cy="85" r="12" stroke="#FF2A74" stroke-width="3" stroke-dasharray="50 20" fill="none" />
-
-    <!-- COMPLETION STATUS -->
-    <text x="50%" y="125" dominant-baseline="middle" text-anchor="middle" class="success-glow">
-      [ SYSTEM READY / ACCESS GRANTED ]
+    <!-- ETIQUETA DE CONFIRMACIÓN -->
+    <text x="50%" y="32" dominant-baseline="middle" text-anchor="middle" class="status-text">
+      [ INITIALIZING CORE SYSTEM... ]
     </text>
   </svg>
 </p>
