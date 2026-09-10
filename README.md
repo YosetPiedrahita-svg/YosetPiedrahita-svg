@@ -30,11 +30,26 @@ Estudiante de **Ingeniería de Sistemas** enfocado en el desarrollo **Full-Stack
 
 ---
 
-## 📊 Actividad Reciente
+## 📊 Actividad y Estadísticas
 
-<p align="center">
-  <img src="https://ghstats.dev/api/card?username=YosetPiedrahita-svg&theme=radical&border_radius=12&custom_title=Recent+Activity&hide=repos%2Ctrend%2Cstars%2Cissues" alt="GitHub Stats Card" />
-</p>
+<table border="0" align="center">
+  <tr>
+    <!-- COLUMNA IZQUIERDA: Stats Card grande -->
+    <td rowspan="2" valign="top" align="center">
+      <img src="https://ghstats.dev/api/card?username=YosetPiedrahita-svg&theme=radical&border_radius=12&custom_title=Recent+Activity&hide=repos%2Ctrend%2Cstars%2Cissues" alt="Recent Activity" width="400" />
+    </td>
+    <!-- COLUMNA DERECHA ARRIBA: Sparkline -->
+    <td valign="top" align="center">
+      <img src="https://ghstats.dev/api/sparkline?username=YosetPiedrahita-svg&theme=radical&days=30&width=320&height=80" alt="Sparkline 30 days" />
+    </td>
+  </tr>
+  <tr>
+    <!-- COLUMNA DERECHA ABAJO: Top Languages -->
+    <td valign="top" align="center">
+      <img src="https://ghstats.dev/api/langs?username=YosetPiedrahita-svg&theme=radical&custom_title=Top+Languages&layout=vertical_list" alt="Top Languages" width="320" />
+    </td>
+  </tr>
+</table>
 
 ---
 
