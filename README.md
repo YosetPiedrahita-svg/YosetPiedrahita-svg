@@ -30,11 +30,10 @@ Estudiante de **Ingeniería de Sistemas** enfocado en el desarrollo **Full-Stack
 
 ---
 
-## 📊 Estadísticas de GitHub
+## 📊 Actividad Reciente
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yosetpiedrahita&show_icons=true&theme=tokyonight&title_color=3178C6&icon_color=3178C6&text_color=9ece6a&bg_color=1a1b26" alt="Estadísticas de GitHub" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yosetpiedrahita&layout=compact&theme=tokyonight&title_color=3178C6&text_color=9ece6a&bg_color=1a1b26" alt="Lenguajes más usados" width="45%" />
+  <img src="https://ghstats.dev/api/card?username=YosetPiedrahita-svg&theme=radical&border_radius=12&custom_title=Recent+Activity&hide=repos%2Ctrend%2Cstars%2Cissues" alt="GitHub Stats Card" />
 </p>
 
 ---
