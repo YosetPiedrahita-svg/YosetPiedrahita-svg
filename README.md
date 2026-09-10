@@ -32,14 +32,14 @@
   <h2><code>// SYSTEM TELEMETRY</code></h2>
 </div>
 
-<!-- SYSTEM TELEMETRY ALINEADO CORRECTAMENTE -->
+<!-- SYSTEM TELEMETRY -->
 <table border="0" width="100%">
   <tr>
     <td width="50%" align="center" valign="top" style="border: none;">
       <img src="https://ghstats.dev/api/card?username=YosetPiedrahita-svg&theme=radical&border_radius=12&custom_title=Recent+Activity&hide=repos%2Ctrend%2Cstars%2Cissues" alt="Recent Activity" width="100%" />
     </td>
     <td width="50%" align="center" valign="top" style="border: none;">
-      <img src="https://ghstats.dev/api/langs?username=YosetPiedrahita-svg&theme=radical&custom_title=Top+Languages&layout=compact" alt="Top Languages" width="100%" />
+      <img src="https://ghstats.dev/api/langs?username=YosetPiedrahita-svg&theme=radical&layout=vertical_list" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
