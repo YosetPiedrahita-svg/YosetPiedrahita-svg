@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=3178C6&center=true&vCenter=true&width=500&height=70&lines=%C2%A1Bienvenido+a+mi+perfil!+%F0%9F%90%A7;Soy+Yoset+Piedrahita;Full-Stack+Developer+in+Progress..." alt="Typing SVG" />
+  </a>
+</p>
 # ¡Hi! i'm Yoset Piedrahita 👋
 
 Systems Engineering student focused on learning and becoming a Full-Stack Developer.
