@@ -1,37 +1,77 @@
-<!-- ANIMATED HEADER -->
+<!-- ANIMATED HEADER WITH SPINNER & COMPLETION -->
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&pause=1000&color=FF2A74&center=true&vCenter=true&width=600&height=80&lines=Welcome+to+my+profile!+%F0%9F%90%A7;I'm+Yoset+Piedrahita;Full-Stack+Developer+in+Progress..." alt="Typing SVG" />
-  </a>
+  <svg width="600" height="140" viewBox="0 0 600 140" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700;800&display=swap');
+      
+      .text-type {
+        font-family: 'Fira Code', monospace;
+        font-size: 22px;
+        font-weight: 800;
+        fill: #FF2A74;
+        white-space: pre;
+        overflow: hidden;
+        border-right: 3px solid #FF2A74;
+        animation: typing 3s steps(30, end) infinite alternate;
+      }
+
+      /* TEXT TYPING ANIMATION */
+      @keyframes typing {
+        0%, 10% { width: 0; }
+        50%, 90% { width: 100%; }
+      }
+
+      /* SPINNER ROTATION */
+      .spinner {
+        transform-origin: 300px 85px;
+        animation: spin 1.5s linear infinite, fadeSpinner 6s ease-in-out infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* SPINNER VISIBILITY CYCLE */
+      @keyframes fadeSpinner {
+        0%, 35% { opacity: 0; }
+        40%, 75% { opacity: 1; }
+        80%, 100% { opacity: 0; }
+      }
+
+      /* SUCCESS GLOW ANIMATION */
+      .success-glow {
+        font-family: 'Fira Code', monospace;
+        font-size: 14px;
+        font-weight: 700;
+        fill: #00FFCC;
+        animation: pulseGlow 6s ease-in-out infinite;
+      }
+
+      @keyframes pulseGlow {
+        0%, 75% { opacity: 0; transform: scale(0.95); }
+        80% { opacity: 1; transform: scale(1.05); }
+        85%, 95% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 8px #00FFCC); }
+        100% { opacity: 0; }
+      }
+    </style>
+
+    <!-- TYPING TEXT -->
+    <g transform="translate(0, 30)">
+      <text x="50%" y="0" dominant-baseline="middle" text-anchor="middle" class="text-type">
+        Welcome to my profile! 👋
+      </text>
+    </g>
+
+    <!-- LOADING SPINNER -->
+    <circle class="spinner" cx="300" cy="85" r="12" stroke="#FF2A74" stroke-width="3" stroke-dasharray="50 20" fill="none" />
+
+    <!-- COMPLETION STATUS -->
+    <text x="50%" y="125" dominant-baseline="middle" text-anchor="middle" class="success-glow">
+      [ SYSTEM READY / ACCESS GRANTED ]
+    </text>
+  </svg>
 </p>
-
-<!-- ABOUT ME -->
-<div align="center">
-  <p>
-    <h2>
-      <font color="#FFFFFF"><b>Systems Engineering Student & Aspiring Full-Stack Developer</b></font>
-    </h2>
-    <h3>
-      <font color="#F8F9FA"><b>Passionate about building modern, high-performance, and intuitive web applications within the JavaScript and Python ecosystems.</b></font>
-    </h3>
-  </p>
-</div>
-
-<br>
-
-<!-- STACK SEPARATOR -->
-<p align="center">
-  <h2><font color="#FF2A74"><code>// STACK & TOOLING</code></font></h2>
-</p>
-
-<!-- TECH STACK -->
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,vite,django,firebase,html,css,git&perline=11&theme=dark" alt="Tech Stack" />
-  </a>
-</div>
-
-<br>
 
 <!-- TELEMETRY SEPARATOR -->
 <p align="center">
